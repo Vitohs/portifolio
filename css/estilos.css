@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    width: 64px;
+    height: 50px;
+}
+
+.direita{
+    float: right;
+    display:flex ;
+}
+
+p{
+    padding: 50px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+header{
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu {
+    text-align: center;
+    display: flex; /* Para alinhar os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+/* nav, aside, article{
+    float: left;
+} */
+
+.trikas{
+    width: 900px;
+    height: 550px;
+}
+
+.eu{
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+    align-content: center;
+}
+
+.br{
+    width: 450px;
+    height: 400px;
+    display: flex;
+}
+
+.projetos{
+    width: 200px;
+    height: 200px;
+}
+
+
+h2{
+
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    display: flex;
+    /* font-family: 'Arvo', sans-serif; */
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* nav{
+    width: 30%;
+}
+article{
+    width: 50%;
+}
+aside{
+    width: 20%;
+} */
