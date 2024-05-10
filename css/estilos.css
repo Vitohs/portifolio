@@ -24,6 +24,7 @@ header{
 }
 
 .menu {
+    float: left;
     text-align: center;
     display: flex; /* Para alinhar os itens horizontalmente */
     gap: 20px; /* Espaçamento entre os itens */
@@ -34,7 +35,8 @@ header{
 } */
 
 .trikas{
-    width: 900px;
+    justify-content: start;
+    width: 760px;
     height: 550px;
 }
 
@@ -52,8 +54,9 @@ header{
 }
 
 .projetos{
-    width: 200px;
-    height: 200px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -65,6 +68,11 @@ h2{
     display: flex;
     /* font-family: 'Arvo', sans-serif; */
     font-family: 'Helvetica', sans-serif;
+}
+
+h2:hover{
+    animation: menuHover 1s infinite;
+
 }
 
 /* nav{

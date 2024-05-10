@@ -6,17 +6,17 @@ nav, aside, article, footer, header{
 
 nav{
     width: 30%;
-    background-color: blueviolet;  
+    /* background-color: blueviolet;   */
 }
 article{
     width: 50%;
-    color: black;
+    color: white;
     font-size: 40px;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
 }
 aside{
     width: 20%;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 header, footer{
@@ -25,7 +25,7 @@ header, footer{
 }
 
 header{
-    background-color: indianred;
+    /* background-color: indianred; */
 }
 
 footer{
@@ -49,3 +49,19 @@ div{
     color: white;
     justify-content: center;
 }
+
+@keyframes menuHover {
+    0% {
+        transform: scale(1);
+        color: white;
+    }
+    50% {
+        transform: scale(1.1);
+        color: white;
+    }
+    100% {
+        transform: scale(1);
+        color: white;
+    }
+}
+
