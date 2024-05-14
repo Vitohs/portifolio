@@ -5,44 +5,35 @@ nav, aside, article, footer, header{
 }
 
 nav{
+    margin-top: 20px;
     width: 30%;
     /* background-color: blueviolet;   */
 }
 article{
+    margin-top: 50px;
     width: 50%;
     color: white;
     font-size: 40px;
     /* background-color: cornsilk; */
 }
 aside{
+    margin-top: 50px;
     width: 20%;
-    /* background-color: gray; */
+    font-size: 70px;
+    font-family: 'Helvetica', sans-serif;
 }
 
-header, footer{
+header {
     width: 100%;
-    height: 50px;
-}
-
-header{
-    /* background-color: indianred; */
+    height: 80px;
+    background-color: black;
 }
 
 footer{
-    background-color: yellow;
-}
-
-.calleri{
-    display: flex;
-}
-
-.calleri-inline{
-    display: inline-flex;
-  
-}
-
-.item{
-    background-color: rebeccapurple;
+    background-color: black;
+    width: 100%;
+    margin-top: 170px;
+    height: 255px;
 }
 
 div{
@@ -64,4 +55,3 @@ div{
         color: white;
     }
 }
-
