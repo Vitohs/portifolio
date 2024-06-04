@@ -8,6 +8,10 @@ img{
     height: 50px;
 }
 
+a{
+    color: #fff58f;
+}
+
 .direita{
     float: right;
     display:flex ;
@@ -20,6 +24,7 @@ p{
 
 
 .menu {
+    position: absolute;
     float: left;
     text-align: center;
     display: flex; /* Para alinhar os itens horizontalmente */
@@ -34,8 +39,8 @@ p{
     margin-top: 40px;
     float: left;
     position: relative;
-    width: 760px;
-    height: 550px;
+    width: 150%;
+    height: 550px;  
 }
 
 .neymar{
@@ -92,6 +97,25 @@ h2:hover{
     animation: menuHover 1s infinite;
 
 }
+
+.mapa{
+    width: 900px;
+
+}
+
+.fatec{
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    height: 255px;
+}
+
+iframe{
+    height: 300px;
+    margin-top: 60%;
+    width: 205%;
+}
+
 
 /* nav{
     width: 30%;
