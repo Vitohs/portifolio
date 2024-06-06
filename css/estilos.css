@@ -8,9 +8,17 @@ img{
     height: 50px;
 }
 
+.casa{
+    /* background-color: #fff58f; */
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
 a{
     color: #fff58f;
 }
+
 
 .direita{
     float: right;
@@ -91,6 +99,15 @@ h2{
 
 p{
     font-family: 'Helvetica', sans-serif;
+ 
+}
+
+
+.fafa{
+    font-family: 'Helvetica', sans-serif;
+    position: absolute;
+
+
 }
 
 h2:hover{
@@ -99,7 +116,7 @@ h2:hover{
 }
 
 .mapa{
-    width: 900px;
+    /* width: 900px; */
 
 }
 
@@ -113,7 +130,7 @@ h2:hover{
 iframe{
     height: 300px;
     margin-top: 60%;
-    width: 205%;
+    width: 100%;
 }
 
 
