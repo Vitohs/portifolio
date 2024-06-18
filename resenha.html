@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Alguem le isso?</title>
+    <title>resenha</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/teste.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
 </head>
 <body>
+    
+
     <header>
         <div class="Menu">
             <a href="index.html">
@@ -31,7 +35,6 @@
             <a href="resenha.html">
                 <h2>Quiz</h2>
             </a>
-            
             </div>
             
       <div class="direita">
@@ -47,17 +50,36 @@
         </a>
       </div>
     </header>
-    <nav>
-        <img class="projetos" src="pics/ccz.jpeg">
-    </nav>
-    <aside class="contexto">
-        <p class="mds">Este é o trabalo do projeto que estou fazendo parte, estamos criando um site para o centro
-        da barra, link do git hub abaixo</p>
-    </aside>
-    <label for="link">
-        <a href="https://github.com/Projeto-Integrado-DSM/Projeto">
-            <input class="linkzada" type="button" name="link" value="clique aqui">
-        </a>
-    </label>
+
+   
+
+
+    <form>
+        <legend>
+            <h1>Descubra que jogador do Trikas voce seria</h1>
+        </legend>
+
+        <label>
+            Nome do cartão: <input type="text" placeholder="favor, informe" required>
+        </label>
+
+        <label>
+           Numero do cartão:  <input type="text" placeholder="digite aqui" required>
+        </label>
+
+        <label>
+            CVC: <input type="number" placeholder="informe" required>
+        </label>
+
+        <label>
+            Validade: <input type="text" placeholder="XX?XX" required>
+        </label>
+
+        <button type="button" id="submitBtn">Descubra seu jogador</button>
+    </form>
+
+    <img id="playerImage" src="" alt="Jogador">
+
+    <script src="favela.js"></script>
 </body>
 </html>

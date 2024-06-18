@@ -91,7 +91,10 @@ div{
     display: inline-flex;
 }
 
+
+
 .item{
+    
     flex-direction: row;
     width: 30%;
     height: 150px;
